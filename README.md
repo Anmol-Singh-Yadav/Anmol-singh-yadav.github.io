@@ -1,18 +1,39 @@
-# Anmol-singh-yadav.github.io
+# Security Engineer Portfolio
 
-## Portfolio
-This is my Portfolio Wesite
-Last updated - December 2021
+A professional, high-performance portfolio website designed for Security Engineers.
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/) <br>
-![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## Features
+- **Modern Dark Theme**: Deep charcoal background with electric blue accents.
+- **Interactive Elements**:
+    - Particle Network Background (HTML5 Canvas)
+    - 3D Tilt Effect on Cards
+    - Dynamic Typing Text in Hero Section
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Clean Code**: Built with semantic HTML5, modern CSS3, and Vanilla JavaScript (no heavy frameworks).
 
+## Setup & Customization
 
-## Hello Guys
+### 1. Add Your Content
+Open `index.html` and look for the `[PLACEHOLDER]` tags. Replace them with your actual information:
+- **Bio**: Update the text in the Hero section.
+- **Skills**: Edit the cards in the `#expertise` section.
+- **Experience**: Update the timeline items in the `#experience` section.
+- **Contact**: Add your email and social links in the footer.
 
-Hii there! <br/>
-This is my Portfolio you can visit my portfolio [anmol-singh-yadav.github.io](https://anmol-singh-yadav.github.io/)
+### 2. Deploy to GitHub Pages
+1.  Create a new repository on GitHub (e.g., `my-portfolio`).
+2.  Push these files to the repository:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin https://github.com/YOUR_USERNAME/my-portfolio.git
+    git push -u origin main
+    ```
+3.  Go to **Settings** > **Pages** in your GitHub repository.
+4.  Select the `main` branch as the source.
+5.  Your site will be live at `https://YOUR_USERNAME.github.io/my-portfolio/`.
 
+## License
+MIT License. Feel free to use and modify.

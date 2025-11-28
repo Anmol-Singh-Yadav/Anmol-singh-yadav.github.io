@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pdf-extraction": "^1.0.2",
+    "pdf-parse": "^2.4.5"
+  }
+}
